@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+}
+body
+{
+    font-size: 14px;
+    background-color: white;
+}
+.container
+{
+    background-color: rgb(63, 199, 162);
+    width: 700px;
+    margin: 20px auto 0;
+    border: 1px solid black;
+    padding-left: 10px;
+
+}
+.list
+{padding-left: 40px;
+padding-bottom: 0px;
+padding-top:0px;}
+.paragraph
+{padding-top:8px;
+padding-bottom:0px;}
+.submit
+{
+    padding-bottom:5px;
+    padding-top:5px;
+}

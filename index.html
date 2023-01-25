@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <haed>
+        <title>Registraton Form</title>
+        <link rel="stylesheet" href="./style.css" type="text/css">
+    </haed>
+    <body>
+        <div class="container">
+        <h1>Registraton Form</h1> 
+            <div class="paragraph">
+                 <p>Enter your details below</p> 
+            </div>
+            <form action="./submit.html" method="post" target="_blank">
+                <div class="list">
+                <list>
+                    <ul><li><input type="email" placeholder="your_email@gmail.com"></li><br>
+                        <li><input type="password" placeholder="password"></li>
+                    </ul>
+                </list>
+                </div>
+            <div class="paragraph">
+            <p><strong><em>!Type a complex password with 8-20 characters.</em></strong></p>
+            </div>
+            <div class="list">
+            <list>
+                <ul>
+                    <li><input type="tel" placeholder="+20 Phone Number"></li>
+                </ul>
+            </list></div><hr>
+            <div class="paragraph">
+                <p><em><strong>Enter your profession:</strong></em></p> 
+           </div>
+            <div class="list">
+            <list>
+                <ul>
+                    <li>
+                        <input type="radio">
+                        <label for ="Student">Student</label>
+                        <input type="radio">
+                        <label for ="Teacher">Teacher</label>
+                        <input type="radio">
+                        <label for ="Develper">Develper</label>  
+                    </li>
+                </ul>
+            </list></div>
+            <div class="paragraph">
+            <p>Choose the stage if you are (student) 
+                <select name="first primary">
+                    <option>first primary</option>
+                    <option>second</option>
+                    <option>third</option>
+                </select>
+            </p></div><hr>
+            <div class="list">
+                <list>
+                <ul>
+                    <li>
+                        Enter your Birth date.
+                        <input type="date" placeholder="dd-mm-yyyy">
+                    </li>
+                </ul>
+            </list></div><hr>
+            <div class="list">
+            <list>
+                <ul>
+                    <li>
+                        <input type="text" placeholder="Any notes">
+                    </li>
+                </ul>
+                
+            </list></div><hr>
+            <div class="submit">
+                <button>submit</button>
+                <button>Reset</button>
+            </div>
+            </form>
+            </div>
+    </body>
+</html>
